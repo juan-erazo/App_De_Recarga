@@ -11,4 +11,5 @@
 
     //Button
     <string name="string_ingresar_button">INGRESAR</string>
+    <string name="imagen_de_prueba">imagen</string>
 </resources>
