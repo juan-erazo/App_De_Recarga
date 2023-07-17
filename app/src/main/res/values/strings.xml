@@ -1,6 +1,7 @@
 <resources>
     //Text
     <string name="app_name">App de Recarga</string>
+
     <string name="string_saludo_text">¡ Bienvenido !</string>
     <string name="string_nrocuenta_text">Ingrese número de cuenta</string>
     <string name="string_clave_text">Ingrese su clave</string>
@@ -12,4 +13,16 @@
     //Button
     <string name="string_ingresar_button">INGRESAR</string>
     <string name="imagen_de_prueba">imagen</string>
+
+
+
+    //String para el activity menu_principal
+    <string name="string_APP_DE_RECARGAS"> APP DE RECARGAS </string>
+    <string name="string_Saldo_de_la_tarjeta"> Saldo de la tarjeta </string>
+    <string name="string_saldo"> S/. 0.00 </string>
+    <string name="string_Agregar_Targeta"> Agregar Targeta </string>
+    <string name="string_Elegir_targeta"> Elegir targeta </string>
+    <string name="string_Atras"> Atras </string>
+    <string name="string_Operacion"> Operacion </string>
+
 </resources>
