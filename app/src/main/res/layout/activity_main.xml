@@ -25,6 +25,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/string_saludo_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -74,7 +75,7 @@
         android:layout_width="117dp"
         android:layout_height="67dp"
         android:layout_marginTop="36dp"
-        android:text="@string/string_ingresar_button"
+        android:text="@string/string_ingresar_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"

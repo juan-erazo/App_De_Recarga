@@ -2,19 +2,14 @@
     //Text
     <string name="app_name">App de Recarga</string>
 
+    //String para el activity main
     <string name="string_saludo_text">¡ Bienvenido !</string>
     <string name="string_nrocuenta_text">Ingrese número de cuenta</string>
     <string name="string_clave_text">Ingrese su clave</string>
-
-    //Hint
     <string name="string_nrocuenta_hint">Número de cuenta</string>
     <string name="string_clave_hint">Clave</string>
-
-    //Button
-    <string name="string_ingresar_button">INGRESAR</string>
+    <string name="string_ingresar_btn">INGRESAR</string>
     <string name="imagen_de_prueba">imagen</string>
-
-
 
     //String para el activity menu_principal
     <string name="string_APP_DE_RECARGAS"> APP DE RECARGAS </string>
@@ -25,4 +20,16 @@
     <string name="string_Atras"> Atras </string>
     <string name="string_Operacion"> Operacion </string>
 
+    //String para el activity regist_usu
+    <string name="string_REGISTRARSE">REGISTRARSE</string>
+    <string name="string_nombres_text">Nombres</string>
+    <string name="string_nombres_hint">Nombres</string>
+    <string name="string_apellidos_text">Apellidos</string>
+    <string name="string_apellidos_hint">Apellidos</string>
+    <string name="string_usuario_text">Usuario</string>
+    <string name="string_usuario_hint">Solo visualizacion</string>
+    <string name="string_contraseña_text">Contraseña</string>
+    <string name="string_contraseña_hint">Contraseña</string>
+    <string name="string_cancelar_btn">CANCELAR</string>
+    <string name="string_registrar_btn">REGISTRAR</string>
 </resources>
