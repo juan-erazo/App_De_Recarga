@@ -45,4 +45,12 @@
     <string name="string_CANCELAR_btn">CANCELAR</string>
     <string name="string_REGISTRARS_btn">REGISTRAR</string>
 
+    //Strings para el activity Registrar tarjetas
+    <string name="string_RECARGAR">RECARGAR</string>
+    <string name="string_Empresa">Seleccione la Empresa</string>
+    <string name="string_Monto">Ingrese el Monto</string>
+    <string name="string_Monto_">S/. 0.00</string>
+    <string name="string_Recargar_btn">RECARGAR</string>
+
+
 </resources>
