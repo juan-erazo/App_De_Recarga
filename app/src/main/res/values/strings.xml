@@ -32,4 +32,17 @@
     <string name="string_contraseña_hint">Contraseña</string>
     <string name="string_cancelar_btn">CANCELAR</string>
     <string name="string_registrar_btn">REGISTRAR</string>
+
+
+    //Strings para el activity Registrar tarjetas
+    <string name="string_REGISTRAR_TARJETAS">REGISTRAR TARJETAS</string>
+    <string name="string_Numero_tarjeta">Numero de tarjeta</string>
+    <string name="string_Num_tarejeta">Tarjeta</string>
+    <string name="string_Fecha_tarjeta">Mes/Año</string>
+    <string name="string_Fecha_tarjeta_">Fecha</string>
+    <string name="string_CSV">CCV</string>
+    <string name="string_CSV_">csv</string>
+    <string name="string_CANCELAR_btn">CANCELAR</string>
+    <string name="string_REGISTRARS_btn">REGISTRAR</string>
+
 </resources>
