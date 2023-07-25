@@ -17,17 +17,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnRegis = (Button) findViewById(R.id.btnRegis);
-        btnRegis.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Siguiente();
-            }
-        });
     }
 
     /* ------------------------------------ BOTON REGISTRAR ------------------------------------- */
     public void Siguiente(){
-        Intent sig = new Intent(MainActivity.this, activity_registrar_usuario.class);
-        startActivity(sig);
+        btnRegis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent sig = new Intent(MainActivity.this, activity_registrar_usuario.class);
+                startActivity(sig);
+            }
+        });
     }
 }
