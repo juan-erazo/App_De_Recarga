@@ -2,6 +2,7 @@ package com.example.appderecarga;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -33,18 +34,20 @@ public class activity_para_registrar_tarjeta extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //codigo para el boton cancelar
+                Intent ant = new Intent(activity_para_registrar_tarjeta.this, activity_operacion_recarga.class);
+                startActivity(ant);
 
             }
         });
 
         registrar.setOnClickListener(new View.OnClickListener() {
 
-            String n_tarjeta = num_tarjeta.getText().toString();
-            String f_tarjeta = num_tarjeta.getText().toString();
-            String n_csv = num_csv.getText().toString();
-
             @Override
             public void onClick(View v) {
+                String n_tarjeta = num_tarjeta.getText().toString();
+                String f_tarjeta = num_tarjeta.getText().toString();
+                String n_csv = num_csv.getText().toString();
+
                 //codigo para el boton registrar
                 String validacion = validarCampos(n_tarjeta, f_tarjeta, n_csv);
 
