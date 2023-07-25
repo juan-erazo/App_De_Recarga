@@ -11,7 +11,7 @@ import android.widget.Spinner;
 
 public class activity_operacion_recarga extends AppCompatActivity {
 
-    private Spinner spinner_selecione_empresa;
+    private Spinner spinner1;
     private Button btn_Atr, btn_Recar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,12 +20,12 @@ public class activity_operacion_recarga extends AppCompatActivity {
 
         btn_Atr = (Button) findViewById(R.id.btnAtr);
         btn_Recar = (Button) findViewById(R.id.btnRecargar);
-        spinner_selecione_empresa = (Spinner) findViewById(R.id.Spiner_empresa);
+        spinner1 = (Spinner) findViewById(R.id.Spiner_empresa);
 
-        String[] empresas = {"Claro, Movistar, Entel, Bitel"};
+        String[] empresas = {"Claro", "Movistar", "Entel", "Bitel"};
 
         ArrayAdapter <String> empresa_seleccion = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, empresas);
-        spinner_selecione_empresa.setAdapter(empresa_seleccion);
+        spinner1.setAdapter(empresa_seleccion);
 
         Atras();
         Recargar();
