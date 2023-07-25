@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="ColorUno">#5A66AA</color>
+    <color name="ColorDos">#5DADED</color>
+    <color name="ColorTres">#5A66AA</color>
 </resources>
