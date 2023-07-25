@@ -30,12 +30,12 @@ public class activity_registrar_usuario extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrar_usuario);
 
-        et_nomb = findViewById(R.id.txtNombre);
-        et_ape = findViewById(R.id.txtApellido);
-        et_contra = findViewById(R.id.txtContra);
-        tv_usu = findViewById(R.id.txtUsuario);
-        btnCance = findViewById(R.id.btnCancelar);
-        btnRegi = findViewById(R.id.btnRegistrar);
+        et_nomb = (EditText) findViewById(R.id.txtNombre);
+        et_ape = (EditText) findViewById(R.id.txtApellido);
+        et_contra = (EditText) findViewById(R.id.txtContra);
+        tv_usu = (TextView) findViewById(R.id.txtUsuario);
+        btnCance = (Button) findViewById(R.id.btnCancelar);
+        btnRegi = (Button) findViewById(R.id.btnRegistrar);
 
         Registrar();
     }
