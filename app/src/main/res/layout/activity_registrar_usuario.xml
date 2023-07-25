@@ -10,18 +10,19 @@
         android:id="@+id/btnRegistrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#AFDD79"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="36dp"
         android:layout_marginBottom="25dp"
+        android:backgroundTint="#AFDD79"
         android:text="@string/string_registrar_btn"
         android:textColor="#455A64"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintHorizontal_bias="0.78"
         app:layout_constraintStart_toEndOf="@+id/btnCancelar"
-        app:layout_constraintTop_toBottomOf="@+id/divider" />
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintVertical_bias="0.7" />
 
     <Button
         android:id="@+id/btnCancelar"
