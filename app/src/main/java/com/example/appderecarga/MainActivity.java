@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnRegis = (Button) findViewById(R.id.btnRegis);
+
+        Siguiente();
     }
 
     /* ------------------------------------ BOTON REGISTRAR ------------------------------------- */
