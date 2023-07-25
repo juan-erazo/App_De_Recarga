@@ -10,12 +10,14 @@
         android:id="@+id/btnRegistrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="36dp"
         android:backgroundTint="#AFDD79"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="25dp"
         android:text="@string/string_registrar_btn"
         android:textColor="#455A64"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.758"
         app:layout_constraintStart_toEndOf="@+id/btnCancelar"
@@ -28,9 +30,11 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="#AFDD79"
+        android:layout_marginBottom="25dp"
         android:text="@string/string_cancelar_btn"
         android:textColor="#455A64"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 
@@ -42,7 +46,7 @@
         android:text="@string/string_contraseña_text"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintHorizontal_bias="0.201"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtUsuario" />
 
@@ -54,7 +58,7 @@
         android:text="@string/string_usuario_text"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintHorizontal_bias="0.176"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtApellido" />
 
@@ -75,11 +79,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:text="@string/string_nombres_text"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintHorizontal_bias="0.205"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider2" />
 
@@ -106,7 +110,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtContra"
-        app:layout_constraintVertical_bias="0.428" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <View
         android:id="@+id/divider2"
@@ -171,8 +175,7 @@
         android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
-        android:enabled="false"
-        android:hint="@string/string_usuario2_text"
+        android:hint="@string/string_usuario_hint"
         android:inputType="text"
         android:textColorHint="@color/gris"
         android:textSize="20sp"

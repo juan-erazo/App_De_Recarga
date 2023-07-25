@@ -27,9 +27,9 @@
     <string name="string_nombres_hint">Nombres</string>
     <string name="string_apellidos_text">Ingrese sus apellidos</string>
     <string name="string_apellidos_hint">Apellidos</string>
-    <string name="string_usuario_text">Usuario</string>
-    <string name="string_usuario2_text">Solo visualizacion</string>
-    <string name="string_contraseña_text">Ingrese su contraseña</string>
+    <string name="string_usuario_text">Cree su usuario</string>
+    <string name="string_usuario_hint">Usuario</string>
+    <string name="string_contraseña_text">Cree su contraseña</string>
     <string name="string_contraseña_hint">Contraseña</string>
     <string name="string_cancelar_btn">CANCELAR</string>
     <string name="string_registrar_btn">REGISTRAR</string>
