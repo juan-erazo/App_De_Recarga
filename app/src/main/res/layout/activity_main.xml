@@ -22,8 +22,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="411dp"
-        android:layout_height="87dp"
+        android:layout_width="416dp"
+        android:layout_height="75dp"
         android:background="#404040"
         android:backgroundTint="#8BC34A"
         android:paddingTop="16dp"
@@ -91,42 +91,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="412dp"
-        android:layout_height="102dp"
-        android:background="#8BC34A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtClave"
-        app:layout_constraintVertical_bias="1.0" />
-
     <Button
         android:id="@+id/btnIngresar"
         android:layout_width="117dp"
         android:layout_height="67dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="#8BC34A"
         android:text="@string/string_ingresar_btn"
         android:textColor="#050505"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/txtClave"
         tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/btnRegis"
         android:layout_width="134dp"
         android:layout_height="66dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="#8BC34A"
         android:text="@string/string_registrar_"
         android:textColor="#0B0B0B"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.768"
+        app:layout_constraintHorizontal_bias="0.747"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/txtClave"
         tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
