@@ -52,7 +52,7 @@ public class activity_para_registrar_tarjeta extends AppCompatActivity {
                     //se puede regitrar ya que no falta ningun campo
 
 
-                    
+
                 }else {
                     //mensaje en caso falte algun campo
                     Toast.makeText(activity_para_registrar_tarjeta.this, "" + validacion, Toast.LENGTH_SHORT).show();
