@@ -2,47 +2,47 @@ package com.example.appderecarga;
 
 public class Usuario {
 
-    private String nomb, ape, usu, cont;
+    private String nombre, apellido, usuario, contrasenia;
 
     public Usuario() {
     }
 
-    public Usuario(String nomb, String ape, String usu, String cont) {
-        this.nomb = nomb;
-        this.ape = ape;
-        this.usu = usu;
-        this.cont = cont;
+    public Usuario(String nombre, String apellido, String usuario, String contrasenia) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.usuario = usuario;
+        this.contrasenia = contrasenia;
     }
 
-    public String getNomb() {
-        return nomb;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setNomb(String nomb) {
-        this.nomb = nomb;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public String getApe() {
-        return ape;
+    public String getApellido() {
+        return apellido;
     }
 
-    public void setApe(String ape) {
-        this.ape = ape;
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
     }
 
-    public String getUsu() {
-        return usu;
+    public String getUsuario() {
+        return usuario;
     }
 
-    public void setUsu(String usu) {
-        this.usu = usu;
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
     }
 
-    public String getCont() {
-        return cont;
+    public String getContrasenia() {
+        return contrasenia;
     }
 
-    public void setCont(String cont) {
-        this.cont = cont;
+    public void setContrasenia(String contrasenia) {
+        this.contrasenia = contrasenia;
     }
 }
