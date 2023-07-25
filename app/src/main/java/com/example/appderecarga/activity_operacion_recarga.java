@@ -11,7 +11,7 @@ import android.widget.Spinner;
 
 public class activity_operacion_recarga extends AppCompatActivity {
 
-    private Spinner spinner1;
+    Spinner spinner1;
     private Button btn_Atr, btn_Recar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
