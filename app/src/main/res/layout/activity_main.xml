@@ -6,6 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btnRegis"
+        android:layout_width="134dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/string_registrar_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toEndOf="@+id/btnIngresar"
+        app:layout_constraintTop_toBottomOf="@+id/txtClave"
+        app:layout_constraintVertical_bias="0.325" />
 
     <TextView
         android:id="@+id/textView5"
@@ -14,26 +28,22 @@
         android:layout_marginTop="40dp"
         android:text="@string/string_clave_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/negro"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtCuenta" />
+        app:layout_constraintTop_toBottomOf="@+id/txtUsu" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="416dp"
-        android:layout_height="75dp"
-        android:background="#404040"
-        android:backgroundTint="#8BC34A"
-        android:paddingTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:text="@string/string_saludo_text"
-        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#78909C"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,68 +65,59 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="@string/string_nrocuenta_text"
+        android:text="@string/string_usu_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/negro"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintHorizontal_bias="0.138"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <EditText
-        android:id="@+id/txtCuenta"
-        android:layout_width="340dp"
-        android:layout_height="0dp"
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_marginStart="55dp"
         android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
         android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/string_nrocuenta_hint"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
+        android:text="@string/string_ingresar_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/txtClave"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <EditText
+        android:id="@+id/txtUsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/string_usu_hint"
+        android:inputType="text"
+        android:textColorHint="@color/gris"
+        android:textSize="20sp"
+        android:autofillHints=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
         android:id="@+id/txtClave"
-        android:layout_width="340dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:autofillHints=""
         android:ems="10"
         android:hint="@string/string_clave_hint"
-        android:inputType="text"
+        android:inputType="textPassword"
+        android:textColorHint="@color/gris"
+        android:textSize="20sp"
+        android:autofillHints=""
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <Button
-        android:id="@+id/btnIngresar"
-        android:layout_width="117dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="72dp"
-        android:backgroundTint="#8BC34A"
-        android:text="@string/string_ingresar_btn"
-        android:textColor="#050505"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.125"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtClave"
-        tools:ignore="TextContrastCheck" />
-
-    <Button
-        android:id="@+id/btnRegis"
-        android:layout_width="134dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="72dp"
-        android:backgroundTint="#8BC34A"
-        android:text="@string/string_registrar_"
-        android:textColor="#0B0B0B"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.747"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtClave"
-        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
