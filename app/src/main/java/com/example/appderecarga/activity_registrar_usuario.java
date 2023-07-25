@@ -57,28 +57,39 @@ public class activity_registrar_usuario extends AppCompatActivity {
                     dbref.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
-                            Usuario usuario = new Usuario(nom,ape,usu,con);
-                            dbref.push().setValue(usuario);
-                            ocultarTeclado();
 
-                            Toast.makeText(activity_registrar_usuario.this,
-                                    "Usuario registrado correctamente", Toast.LENGTH_SHORT).show();
+                            boolean res = false;
 
-                            Limpiar();
+                            for(DataSnapshot x : snapshot.getChildren()){
+                                if (x.child("nombre").getValue().toString().equalsIgnoreCase(nom) &&
+                                        x.child("apellido").getValue().toString().equalsIgnoreCase(ape)){
+                                    res = true;
+                                    ocultarTeclado();
+                                    Toast.makeText(activity_registrar_usuario.this, "Este nombre completo ya existe", Toast.LENGTH_LONG).show();
+                                    break;
+                                }
+                            }
+
+                            if (!res){
+                                Usuario usuario = new Usuario(nom,ape,usu,con);
+                                dbref.push().setValue(usuario);
+                                ocultarTeclado();
+
+                                Toast.makeText(activity_registrar_usuario.this, "Usuario registrado correctamente", Toast.LENGTH_SHORT).show();
+
+                                Limpiar();
+                            }
                         }
 
                         @Override
                         public void onCancelled(@NonNull DatabaseError error) {
-                            Toast.makeText(activity_registrar_usuario.this,
-                                    "Se produjo un error al registrar", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(activity_registrar_usuario.this, "Se produjo un error al registrar", Toast.LENGTH_SHORT).show();
                         }
                     });
 
                 } else {
-                    Toast.makeText(activity_registrar_usuario.this, "Completar el campo "
-                            + msj, Toast.LENGTH_LONG).show();
+                    Toast.makeText(activity_registrar_usuario.this, "Completar el campo " + msj, Toast.LENGTH_LONG).show();
                 }
-
             } // Cierra el OnClick
         });
     }

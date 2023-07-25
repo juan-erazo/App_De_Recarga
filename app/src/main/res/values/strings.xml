@@ -4,9 +4,9 @@
 
     //Activity main
     <string name="string_saludo_text">¡ Bienvenido !</string>
-    <string name="string_nrocuenta_text">Ingrese número de cuenta</string>
+    <string name="string_usu_text">Ingrese usuario</string>
+    <string name="string_usu_hint">Usuario</string>
     <string name="string_clave_text">Ingrese su clave</string>
-    <string name="string_nrocuenta_hint">Número de cuenta</string>
     <string name="string_clave_hint">Clave</string>
     <string name="string_ingresar_btn">INGRESAR</string>
     <string name="string_registrar_">REGISTRAR</string>
