@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btnRegis"
         android:layout_width="134dp"
         android:layout_height="66dp"
         android:layout_marginTop="40dp"
@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/txtClave" />
 
     <TextView
         android:id="@+id/textView5"
@@ -28,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/txtCuenta" />
 
     <TextView
         android:id="@+id/textView"
@@ -69,7 +69,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/txtCuenta"
         android:layout_width="340dp"
         android:layout_height="0dp"
         android:layout_marginTop="40dp"
@@ -84,7 +84,7 @@
         android:autofillHints="" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnIngresar"
         android:layout_width="117dp"
         android:layout_height="67dp"
         android:layout_marginTop="40dp"
@@ -92,10 +92,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/txtClave" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/txtClave"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"

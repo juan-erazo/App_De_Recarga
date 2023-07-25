@@ -28,7 +28,7 @@
     <string name="string_apellidos_text">Apellidos</string>
     <string name="string_apellidos_hint">Apellidos</string>
     <string name="string_usuario_text">Usuario</string>
-    <string name="string_usuario_hint">Solo visualizacion</string>
+    <string name="string_usuario2_text">Solo visualizacion</string>
     <string name="string_contraseña_text">Contraseña</string>
     <string name="string_contraseña_hint">Contraseña</string>
     <string name="string_cancelar_btn">CANCELAR</string>
