@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /* ------------------------------------ BOTON REGISTRAR ------------------------------------- */
-    public void Registra(){
+    private void Registra(){
         btn_Regis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /* ------------------------------------- BOTON INGRESAR ------------------------------------- */
-    public void Ingresar(){
+    private void Ingresar(){
         btn_Ingr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                                 if (x.child("usuario").getValue().toString().equalsIgnoreCase(usuario) &&
                                         x.child("contrasenia").getValue().toString().equals(clave)) {
 
-                                    Intent sig = new Intent(MainActivity.this, activity_menu_principal.class);
+                                    Intent sig = new Intent(MainActivity.this, activity_operacion_recarga.class);
                                     startActivity(sig);
                                     Toast.makeText(MainActivity.this, "Ha ingresado correctamente", Toast.LENGTH_LONG).show();
                                     break;
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /* ------------------------------- METODO PARA VALIDAR CAMPO -------------------------------- */
-    public String validarCampo(){
+    private String validarCampo(){
 
         if (et_usua.getText().toString().trim().isEmpty()){
             msj = "usuario";

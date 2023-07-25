@@ -50,6 +50,7 @@
     <string name="string_Empresa">Seleccione la Empresa</string>
     <string name="string_Monto">Ingrese el Monto</string>
     <string name="string_Monto_">S/. 0.00</string>
+    <string name="string_Atras_btn">ATRAS</string>
     <string name="string_Recargar_btn">RECARGAR</string>
     <string name="string_celular">Ingrese el numero de telefono</string>
     <string name="string_celular_">000 000 000</string>
