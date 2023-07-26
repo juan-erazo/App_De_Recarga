@@ -21,8 +21,8 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="422dp"
-        android:layout_height="56dp"
+        android:layout_width="415dp"
+        android:layout_height="59dp"
         android:background="@color/ColorCuatro"
         android:paddingTop="15dp"
         android:text="@string/string_RECARGAR"
@@ -30,7 +30,7 @@
         android:textColor="@color/negro"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -129,7 +129,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginBottom="25dp"
         android:backgroundTint="@color/ColorCuatro"
-        android:text="@string/string_Recargar_btn"
+        android:text="@string/string_Pagar_btn"
         android:textColor="@color/ColorDos"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
