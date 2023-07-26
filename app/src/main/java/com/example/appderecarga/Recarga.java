@@ -2,39 +2,15 @@ package com.example.appderecarga;
 
 public class Recarga {
 
-    String nomPer, apePer, nroTarjeta, numero, empresa;
-    int monto;
+    String numero, empresa, monto;
 
     public Recarga(){
     }
 
-    public Recarga(String nomPer, String apePer, String nroTarjeta, String numero, String empresa, int monto) {
-        this.nomPer = nomPer;
-        this.apePer = apePer;
-        this.nroTarjeta = nroTarjeta;
+    public Recarga(String numero, String empresa, String monto) {
         this.numero = numero;
         this.empresa = empresa;
         this.monto = monto;
-    }
-
-    public String getNomPer() { return nomPer; }
-
-    public void setNomPer(String nomPer) {
-        this.nomPer = nomPer;
-    }
-
-    public String getApePer() { return apePer; }
-
-    public void setApePer(String apePer) {
-        this.apePer = apePer;
-    }
-
-    public String getNroTarjeta() {
-        return nroTarjeta;
-    }
-
-    public void setNroTarjeta(String nroTarjeta) {
-        this.nroTarjeta = nroTarjeta;
     }
 
     public String getNumero() {
@@ -53,11 +29,11 @@ public class Recarga {
         this.empresa = empresa;
     }
 
-    public int getMonto() {
+    public String getMonto() {
         return monto;
     }
 
-    public void setMonto(int monto) {
+    public void setMonto(String monto) {
         this.monto = monto;
     }
 }

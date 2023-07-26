@@ -88,7 +88,6 @@ public class activity_para_registrar_tarjeta extends AppCompatActivity {
                 }
             }
         });
-
     }
 
     /* ------------------------------- METODO PARA VALIDAR CAMPO -------------------------------- */
